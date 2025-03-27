@@ -25,7 +25,7 @@ export default function Header() {
         <DarkModeSwitch />
         <Link href={'/'} className='flex gap-1 items-center'>
           <span className='text-2xl font-bold bg-pink-300 py-1 px-2 rounded-lg'>
-            Tulip
+            Tulip 🌷
           </span>
           <span className='text-xl hidden sm:inline'>TA</span>
         </Link>
