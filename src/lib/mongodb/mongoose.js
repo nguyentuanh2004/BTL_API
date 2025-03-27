@@ -8,7 +8,7 @@ export const connect = async () => {
   }
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: 'next-tulip-clerk',
+      dbName: 'next-tulip',
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
