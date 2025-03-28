@@ -24,7 +24,7 @@ export default function SearchBox() {
         className='text-pink-600 disabled:text-gray-400'
         disabled={search === ''}
       >
-        Search
+        Search 🌷
       </button>
     </form>
   );
