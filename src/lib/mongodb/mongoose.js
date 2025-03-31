@@ -9,7 +9,7 @@ export const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
       dbName: 'next-tulip',
-      //useNewUrlParser: true,
+      //useNewUrlParser: true,  
       //useUnifiedTopology: true,
     });
     initialized = true;
