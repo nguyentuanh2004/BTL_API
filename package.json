@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.12.11",
+    "@google/generative-ai": "^0.24.0",
     "inngest": "^3.34.1",
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.0",
